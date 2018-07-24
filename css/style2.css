@@ -1,0 +1,62 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: auto;
+  background-image: url(https://github.com/WDI-SEA/css-positioning/blob/master/img/bgtile.png?raw=true);
+  background-repeat: repeat-x;
+}
+#phones {
+  float: left;
+  width: auto;
+  margin-left: 20%;
+  margin-top: 100px;
+}
+.left {
+  float: left;
+}
+
+.right {
+  padding-left: 40px;
+  display: inline-block;
+  margin-top: 100px;
+  width: auto;
+}
+
+h1 {
+  color: #06365f;
+}
+
+#small-logo {
+  display: inline-block;
+}
+
+#textbox {
+  background-color: white;
+  height: auto;
+  width: 400px;
+  /* display: inline-block; */
+}
+
+.bold {
+  font-weight: bold;
+}
+
+footer {
+  padding-top: 50px;
+  clear: both;
+  text-align: center;
+  font-weight: bold;
+}
+
+.foot {
+  color: #1c5380;
+}
+.copyright {
+  color: lightgrey;
+}
